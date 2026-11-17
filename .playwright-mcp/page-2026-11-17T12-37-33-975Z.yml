@@ -1,0 +1,28 @@
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - generic "Trascina per spostare, doppio clic per ripristinare" [ref=e7]: Lingua
+    - generic [ref=e14]:
+      - combobox "Selezione della lingua" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: Italiano
+      - textbox [aria-hidden] [ref=e22]: it
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - generic "Trascina per spostare, doppio clic per ripristinare" [ref=e25]: Accedi a habbo
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Qual è il tuo nome habbo
+          - textbox "Qual è il tuo nome habbo" [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]: Password
+          - textbox "Password" [ref=e45]
+        - generic [ref=e46] [cursor=pointer]:
+          - checkbox "Ricordami" [ref=e47]
+          - checkbox [aria-hidden] [ref=e48]
+          - generic [ref=e49]: Ricordami
+        - button "Log in" [ref=e55] [cursor=pointer]
+        - button "Password dimenticata?" [ref=e60] [cursor=pointer]
+    - generic [ref=e65]:
+      - generic "Trascina per spostare, doppio clic per ripristinare" [ref=e66]: È la prima volta qui?
+      - generic [ref=e72]:
+        - generic [ref=e73]: Non hai ancora un account habbo?
+        - button "Puoi crearne uno qui" [ref=e78] [cursor=pointer]

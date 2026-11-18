@@ -84,7 +84,9 @@ export class FurnitureSoundBlockLogic extends FurnitureMultiStateLogic
 
         }
 
-        if(this._state !== FurnitureSoundBlockLogic.STATE_UNINITIALIZED && message.state !== this._state)
+        // Sound FX furniture such as sfx_bass1 has one state, so using it sends the
+        // same state again. Every post-initialization update represents a use.
+        if(this._state !== FurnitureSoundBlockLogic.STATE_UNINITIALIZED)
         {
             this.playSoundAt(location.z);
         }

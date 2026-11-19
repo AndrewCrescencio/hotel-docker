@@ -47,6 +47,17 @@ yarn-error.log
 testem.log
 /typings
 .git
+*.tsbuildinfo
+.eslintcache
+*.log
+/playwright-report
+/test-results
+/.turbo
+/.vite
+/.parcel-cache
+.env
+.env.*
+!.env.example
 
 # System Files
 .DS_Store

@@ -1,0 +1,3 @@
+[submodule "polaris-emulator"]
+	path = polaris-emulator
+	url = https://github.com/HABINHO-HOTEL/habinho-emulator.git

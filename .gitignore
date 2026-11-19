@@ -28,11 +28,20 @@
 .git
 .DS_Store
 Thumbs.db
+*.tsbuildinfo
+.eslintcache
+/playwright-report
+/test-results
+/.turbo
+/.vite
+/.parcel-cache
 
 # Octane
 /build
 *.zip
 .env
+.env.*
+!.env.example
 .claude/
 
 # Per-deploy build configuration (yarn configure)
